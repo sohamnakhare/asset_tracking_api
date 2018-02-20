@@ -1,5 +1,12 @@
 # asset_tracking_api
 
+Steps to run:
+1. clone or download the code
+2. go to th eproject repository
+3. npm i
+4. cd app
+5. node server.js
+
 apis
 
 1. GET /api/gps
