@@ -5,7 +5,8 @@ var config = require('./config')
 var log = console;
 
 //connect database
-var connectionString = 'mongodb://'+config.mongodb.host+'/'+config.mongodb.name;
+var connectionString = config.mongodb;
+
 mongoose.connect(connectionString, function () {
   console.log('mongodb connected')
 })
